@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:#0b1220;color:#e2e8f0;font-family:system-ui,sans-serif}
+.ar{direction:rtl;text-align:right}
+.btn{padding:6px 10px;border:1px solid #334155;border-radius:6px;display:inline-flex;gap:4px;align-items:center}
+.btn:hover:not(:disabled){background:#1e293b}.btn:disabled{opacity:.4}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
